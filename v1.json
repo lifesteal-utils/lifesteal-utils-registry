@@ -32,16 +32,16 @@
       "toggleOption": "Enable Frost Timer",
       "defaultFormat": "<green><bold>Frost: </bold></green>{{timer}}",
       "passiveState": "Ready!",
-      "timerFormat": 90,
+      "timerSeconds": 10,
       "nbtId": "enchants:frost"
     },
     {
       "chatTrigger": "• You activated Vortex's ability",
       "name": "Vortex",
       "toggleOption": "Enable Vortex Timer",
-      "defaultFormat": "<gold><bold>Vortex: </bold></gold>{{timer}}",
+      "defaultFormat": "<blue><bold>Vortex: </bold></blue>{{timer}}",
       "passiveState": "Ready!",
-      "timerFormat": 15,
+      "timerSeconds": 15,
       "nbtId": "enchants:vortex"
     },
     {
@@ -50,7 +50,7 @@
       "toggleOption": "Enable Unstable Timer",
       "defaultFormat": "<blue><bold>Unstable: </bold></blue>{{timer}}",
       "passiveState": "Ready!",
-      "timerFormat": 30,
+      "timerSeconds": 30,
       "nbtId": "enchants:unstable"
     },
     {
@@ -70,6 +70,33 @@
       "passiveState": "Ready!",
       "timerSeconds": 15,
       "nbtId": "enchants:first_strike"
+    },
+    {
+      "chatTrigger": "• You activated Hook's ability",
+      "name": "Hook",
+      "toggleOption": "Enable Hook Timer",
+      "defaultFormat": "<blue><bold>Hook: </bold></blue>{{timer}}",
+      "passiveState": "Ready!",
+      "timerSeconds": 15,
+      "nbtId": "enchants:hook"
+    },
+    {
+      "chatTrigger": "• You activated Bulwark's ability",
+      "name": "Bulwark",
+      "toggleOption": "Enable Bulwark Timer",
+      "defaultFormat": "<blue><bold>Bulwark: </bold></blue>{{timer}}",
+      "passiveState": "Ready!",
+      "timerSeconds": 30,
+      "nbtId": "enchants:bulwark"
+    },
+    {
+      "chatTrigger": "• You activated Firefly's ability",
+      "name": "Firefly",
+      "toggleOption": "Enable Firefly Timer",
+      "defaultFormat": "<gold><bold>Firefly: </bold></gold>{{timer}}",
+      "passiveState": "Ready!",
+      "timerSeconds": 30,
+      "nbtId": "enchants:firefly"
     }
   ],
   "pois": [
